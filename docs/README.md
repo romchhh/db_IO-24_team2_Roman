@@ -9,11 +9,23 @@ footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name]"
 
 **Виконали:** 
 
-*студенти [X]-го курсу, групи (шифр групи)* 
+*студенти 2-го курсу, групи ІО-24* 
 
-**[ім’я ПРІЗВИЩЕ] [Посилання email, tg, fb]**
+**Максим Севастьянов [Telegram](https://t.me/sevastian0v)**
 
-**[ім’я ПРІЗВИЩЕ] [Посилання email, tg, fb]**
+**Роман Федонюк [Telegram](https://t.me/nowayrm)**
+
+**Данііл Бережанський [Telegram](https://t.me/ayanel)**
+
+**Іван Соц [Telegram](https://t.me/MrFlaiman)**
+
+**Андрій Петренко [Telegram](https://t.me/AHgPEu_6po)**
+
+**Кирило Шульга [Telegram](https://t.me/kyryl_shulga)**
+
+**Олександр Слободенюк [Telegram](https://t.me/Niggetos)**
+
+**Михайло Доліцой [Telegram](https://t.me/DolitsoiMisha)**
 
 
 **Керівник**

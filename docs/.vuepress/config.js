@@ -15,7 +15,7 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/docs/',
+  base: '/db_IO-24_team2/',
   theme: 'cool',
   // dest: 'dist',
   head: [
@@ -74,7 +74,7 @@ module.exports = {
 
     lastUpdated: 'Останнє оновлення', // string | boolean
       // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'https://github.com/boldak/edu-dis-labs',
+    repo: 'https://github.com/lesflq/db_IO-24_team2',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Github',
@@ -93,7 +93,7 @@ module.exports = {
     // editLinkText: 'Ви можете покращити цю сторінку'
 
   },
-  title: 'Назва проєкту',
+  title: 'Система управління відкритими даними',
   description: 'Лабораторні роботи з дисципліни "Розподілені інформаційні системи"',
   configureWebpack: {
     resolve: {
