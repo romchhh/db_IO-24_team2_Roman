@@ -3,8 +3,7 @@ home: true
 actionText: Розпочати →
 actionLink: /intro/
 
-
-footer: "ECL 2.0 Licensed | Copyright © [2024] [Slobodeniuk Sasha]"
+footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name]"
 ---
 
 
@@ -26,7 +25,7 @@ footer: "ECL 2.0 Licensed | Copyright © [2024] [Slobodeniuk Sasha]"
 
 **Олександр Слободенюк [Telegram](https://t.me/Niggetos)**
 
-**Михайло Доліцой [Telegram](https://t.me/DolitsoiMisha)** 
+**Михайло Доліцой [Telegram](https://t.me/DolitsoiMisha)**
 
 
 **Керівник**
