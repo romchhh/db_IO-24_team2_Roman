@@ -313,6 +313,26 @@
 
     COMMIT;
 ```
+## RESTfull сервіс для управління даними
+
+- app.py:
+```python
+from app_init import app
+import users_controller
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000, host="127.0.0.1")
+```
+
+- app_init.py:
+```python
+from flask import Flask
+
+app = Flask(__name__)
+```
+
+- user_module.py:
+```python
 
 import mysql.connector
 
@@ -421,3 +441,40 @@ class Users:
             return {'message': 'Failed to update user', 'error': str(err), 'status_code': 500}
         except ValueError:
             return {"message": "Invalid user id", "error": "Bad Request", "status_code": 400}
+```
+
+- user_controller.py:
+```python
+from flask import request, jsonify
+from user_model import Users
+from app_init import app
+
+users = Users()
+
+
+@app.route("/users", methods=['GET'])
+def get_all_users():
+    return jsonify(users.get_all_users())
+
+
+@app.route("/user/<user_id>", methods=['GET'])
+def get_user_by_id(user_id):
+    return jsonify(users.get_user_by_id(user_id))
+
+
+@app.route("/users/add", methods=['POST'])
+def add_user():
+    url_params = request.args.to_dict()
+    return jsonify(users.add_user(url_params))
+
+
+@app.route("/users/delete/<user_id>", methods=['DELETE'])
+def delete_user(user_id):
+    return jsonify(users.delete_user(user_id))
+
+
+@app.route("/users/update/<user_id>", methods=['PUT'])
+def update_user(user_id):
+    url_params = request.args.to_dict()
+    return jsonify(users.update_user(user_id, url_params))
+```
